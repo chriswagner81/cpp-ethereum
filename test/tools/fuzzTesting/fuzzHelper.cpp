@@ -560,7 +560,7 @@ void RandomCodeOptions::setWeights()
 
 BOOST_FIXTURE_TEST_SUITE(RandomCodeTests, TestOutputHelper)
 
-BOOST_AUTO_TEST_CASE(rndCode)
+BOOST_AUTO_TEST_CASE(rndCode, *boost::unit_test::disabled())
 {
 	try
 	{
